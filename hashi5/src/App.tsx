@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
 
 function App() {
   return (
     <>
-      <h1 className=" text-xl">Hashi5</h1>
+      <h1>Hashi5</h1>
+      <Home />
     </>
   );
 }
